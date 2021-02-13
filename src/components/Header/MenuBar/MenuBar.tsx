@@ -1,4 +1,5 @@
 import React from 'react';
+import './MenuBar.scss';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 import Home from '../../../pages/Home';
