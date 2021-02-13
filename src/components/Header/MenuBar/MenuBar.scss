@@ -1,0 +1,17 @@
+//@import "colors.scss";
+@import "src/styles/colors";
+
+a {
+    color: grey;
+    font-weight: bold;
+    font-size: 1.1rem;
+    
+    @media (max-width: 991.9px) {
+        font-size: 1.3rem;
+    }
+    
+    &:hover {
+        color: $pastel-blue;
+        text-decoration: none;
+    }
+}
