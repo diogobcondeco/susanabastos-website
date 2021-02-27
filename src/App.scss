@@ -1,0 +1,9 @@
+@import "~bootstrap/scss/bootstrap";
+@import "styles/colors";
+
+*, 
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+}
