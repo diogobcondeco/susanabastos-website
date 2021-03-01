@@ -1,0 +1,13 @@
+// SCREEN SIZES
+$medium-screen: 991px;
+
+// GENERAL VARIABLES
+.d {
+	&-none {
+		display: none;
+	}
+
+	&-block {
+		display: block;
+	}
+}

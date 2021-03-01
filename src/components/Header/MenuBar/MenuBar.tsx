@@ -2,15 +2,15 @@ import React from 'react';
 import './MenuBar.scss';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
-import Home from '../../../pages/Home';
-import About from '../../../pages/About';
-import Hypnotherapy from '../../../pages/Hypnotherapy';
-import NeuroLinguisticProgramming from '../../../pages/NeuroLinguisticProgramming';
-import BodyLanguage from '../../../pages/BodyLanguage';
-import Reiki from '../../../pages/Reiki';
-import Coaching from '../../../pages/Coaching';
-import Appointments from '../../../pages/Appointments';
-import Contacts from '../../../pages/Contacts';
+import Home from '../../../pages/Home/Home';
+import About from '../../../pages/About/About';
+import Hypnotherapy from '../../../pages/Services/Hypnotherapy';
+import NeuroLinguisticProgramming from '../../../pages/Services/NeuroLinguisticProgramming';
+import BodyLanguage from '../../../pages/Services/BodyLanguage';
+import Reiki from '../../../pages/Services/Reiki';
+import Coaching from '../../../pages/Services/Coaching';
+import Appointments from '../../../pages/Services/Appointments';
+import Contacts from '../../../pages/Contacts/Contacts';
 
 function MenuBar() {
     return (

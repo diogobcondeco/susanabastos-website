@@ -4,7 +4,6 @@ import MenuBar from "./MenuBar/MenuBar";
 function Header() {
     return (
         <>
-            {/*img*/}
             <MenuBar />
         </>
     )

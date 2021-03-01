@@ -1,13 +1,13 @@
 import React from 'react';
+import './Footer.scss';
 
-function Footer() {
+const Footer:React.FC = () => {
     return (
-        <>
-            <p>Footer</p>
-            <p>Copyright © 2021 - Susana Bastos</p>
+        <div className="footer">
+            <span>Copyright © 2021 - Susana Bastos</span>
             {/*por o ano a mudar consoante o ano*/}
             {/*2021 ou 2021-2022*/}
-        </>
+        </div>
     )
 }
 
