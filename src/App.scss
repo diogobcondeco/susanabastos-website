@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "assets/styles/colors";
+@import "assets/styles/variables";
 
 *,
 ::before,
@@ -9,7 +10,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: lightgray;
     min-width: 320px;
 }
 
@@ -18,4 +19,44 @@ body {
     flex-direction: column;
     background-color: green;
     height: 40rem;
+}
+
+.page {
+    padding: 2rem 25rem 5rem;
+    background-color: white;
+
+    @media (max-width: $extra-large-screen) {
+        padding: 2rem 15rem 5rem;
+    }
+
+    @media (max-width: $large-screen) {
+        padding: 2rem 10rem 5rem;
+    }
+
+    @media (max-width: $medium-screen) {
+        padding: 2rem 1rem 5rem;
+    }
+}
+
+.highlight {
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.title {
+	font-size: 1.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitle {
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+}
+
+.paragraph {
+    display: block;
+    padding: 0.5rem 0;
+    text-align: justify;
 }
